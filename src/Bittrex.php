@@ -1,14 +1,10 @@
 <?php
-/**
- * @author lin <465382251@qq.com>
- * */
-
-namespace Lin\Bittrex;
+namespace Detrading\Bittrex;
 
 
-use Lin\Bittrex\Api\Account;
-use Lin\Bittrex\Api\Market;
-use Lin\Bittrex\Api\Order;
+use Detrading\Bittrex\Api\Account;
+use Detrading\Bittrex\Api\Market;
+use Detrading\Bittrex\Api\Order;
 
 class Bittrex
 {

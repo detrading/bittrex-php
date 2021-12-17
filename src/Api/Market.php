@@ -1,11 +1,8 @@
 <?php
-/**
- * @author lin <465382251@qq.com>
- * */
 
-namespace Lin\Bittrex\Api;
+namespace Detrading\Bittrex\Api;
 
-use Lin\Bittrex\Request;
+use Detrading\Bittrex\Request;
 
 class Market extends Request
 {
@@ -198,3 +195,4 @@ class Market extends Request
         return $this->exec();
     }
 }
+

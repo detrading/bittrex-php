@@ -1,5 +1,5 @@
 <?php
-namespace Lin\Bittrex\Exceptions;
+namespace Detrading\Bittrex\Exceptions;
 
 class Exception extends \Exception
 {

@@ -1,11 +1,7 @@
 <?php
-/**
- * @author lin <465382251@qq.com>
- * */
+namespace Detrading\Bittrex\Api;
 
-namespace Lin\Bittrex\Api;
-
-use Lin\Bittrex\Request;
+use Detrading\Bittrex\Request;
 
 class Account extends Request
 {
