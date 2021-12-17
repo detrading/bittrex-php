@@ -8,7 +8,7 @@ V3 ( V1.1 eol ), All interface methods are initialized with the same methods pro
 ### Other Exchanges
 
 [Checkout PHP Exchanges by zhouaini528](https://github.com/zhouaini528/exchanges-php)
-[src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
+[src/api by zhouaini528, zb-php](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
 
 #### Installation method
 ```
@@ -87,7 +87,7 @@ try {
 
 ```
 ### Order - API
-Order related API [More](https://github.com/detrading/bitfinex-php/blob/master/tests/order.php)
+Order related API [More](https://github.com/detrading/bittrex-php/blob/master/tests/order.php)
 ```php
 //If you have an Subaccount Id, you can fill it in
 $bittrex=new Bittrex($key,$secret,$subaccount_id='');
@@ -132,7 +132,7 @@ try {
 }
 ```
 ### Account - API
-Account related API [More](https://github.com/detrading/bitfinex-php/blob/master/tests/account.php)
+Account related API [More](https://github.com/detrading/bittrex-php/blob/master/tests/account.php)
 ```php
 //If you have an Subaccount Id, you can fill it in
 $bittrex=new Bittrex($key,$secret,$subaccount_id='');
