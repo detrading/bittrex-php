@@ -1,3 +1,4 @@
+**I'm a github noob and I am in the process of learning github and programming; this is one of my trial repos**  
 ### It is recommended that you read the official documentation first
 
 V3 ( V1.1 eol ), All interface methods are initialized with the same methods provided by Bitfinex. More details [src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
@@ -7,27 +8,7 @@ Most of the interface is finished, users can continue to extend it according to 
 
 ### Other Exchanges
 
-[Exchanges](https://github.com/zhouaini528/exchanges-php) It contains all of the following exchanges and is highly recommended to use this SDK.
-[Bitmex](https://github.com/zhouaini528/bitmex-php) Support[Websocket](https://github.com/zhouaini528/bitmex-php/blob/master/README_CN.md#Websocket)
-[Okex](https://github.com/zhouaini528/okex-php) Support[Websocket](https://github.com/zhouaini528/okex-php/blob/master/README_CN.md#Websocket)
-[Huobi](https://github.com/zhouaini528/huobi-php) Support[Websocket](https://github.com/zhouaini528/huobi-php/blob/master/README_CN.md#Websocket)
-[Binance](https://github.com/zhouaini528/binance-php) Support[Websocket](https://github.com/zhouaini528/binance-php/blob/master/README_CN.md#Websocket)
-[Kucoin](https://github.com/zhouaini528/kucoin-php)
-[Mxc](https://github.com/zhouaini528/mxc-php)
-[Coinbase](https://github.com/zhouaini528/coinbase-php)
-[ZB](https://github.com/zhouaini528/zb-php)
-[Bitfinex](https://github.com/zhouaini528/zb-php)
-[Bittrex](https://github.com/zhouaini528/bittrex-php)
-[Kraken](https://github.com/zhouaini528/kraken-php)
-[Gate](https://github.com/zhouaini528/gate-php)   
-[Bigone](https://github.com/zhouaini528/bigone-php)   
-[Crex24](https://github.com/zhouaini528/crex24-php)   
-[Bybit](https://github.com/zhouaini528/bybit-php)  
-[Coinbene](https://github.com/zhouaini528/coinbene-php)   
-[Bitget](https://github.com/zhouaini528/bitget-php)   
-[Poloniex](https://github.com/zhouaini528/poloniex-php)
-
-**If you don't find the exchange SDK you want you can let me know and I'll add them.**  
+[Checkout PHP Exchanges by zhouaini528](https://github.com/zhouaini528/exchanges-php) 
 
 #### Installation method
 ```
