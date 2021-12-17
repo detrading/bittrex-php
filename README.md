@@ -3,7 +3,7 @@
 V3 ( V1.1 eol ), All interface methods are initialized with the same methods provided by Bitfinex. More details [src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
 Most of the interface is finished, users can continue to extend it according to my design plan, feel free to iterate it with me.
 
-[English Document](https://github.com/zhouaini528/bitfinex-php/blob/master/README.md)
+[Bittrex API Documentation](https://bittrex.github.io/api/v3)
 
 ### Other Exchanges
 
