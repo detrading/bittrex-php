@@ -1,6 +1,8 @@
 ### It is recommended that you read the official documentation first
 
-V3 ( V1.1 eol ), All interface methods are initialized with the same methods provided by Bitfinex. More details [src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
+V1.1 Not supported
+V3 Supported
+All interface methods are initialized with the same methods provided by Bitfinex. More details [src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
 Most of the interface is finished, users can continue to extend it according to my design plan, feel free to iterate it with me.
 
 [English Document](https://github.com/zhouaini528/bitfinex-php/blob/master/README.md)
