@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @author lin <465382251@qq.com>
- * */
-
-use Lin\Bittrex\Bittrex;
+use Detrading\Bittrex\Bittrex;
 
 require __DIR__ .'../../vendor/autoload.php';
 

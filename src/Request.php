@@ -107,9 +107,9 @@ class Request
 
         if(isset($this->options['proxy']) && $this->options['proxy']===true) {
             $this->options['proxy']=[
-                'http'  => 'http://127.0.0.1:12333',
-                'https' => 'http://127.0.0.1:12333',
-                'no'    =>  ['.cn']
+                'http'  => '', //http://127.0.0.1:12333
+                'https' => '', //http://127.0.0.1:12333
+                'no'    =>  [''] //.cn
             ];
         }
     }
