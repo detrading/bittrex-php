@@ -1,18 +1,12 @@
 {
-    "name": "linwj/bittrex",
+    "name": "detrading/bittrex",
     "type": "library",
     "description": "Bittrex API Like the official document interface, Support for arbitrary extension.",
     "license": "MIT",
-    "keywords": ["bittrex","bitfinex","zb","coinbase","bitmex", "binance", "okex", "huobi","kucoin","kumex"],
-    "authors": [
-        {
-            "name": "linwenjun",
-            "email": "465382251@qq.com"
-        }
-    ],
+    "keywords": ["bittrex","php","api"],
     "autoload": {
         "psr-4": {
-            "Lin\\Bittrex\\": "./src/"
+            "Detrading\\Bittrex\\": "./src/"
         }
     },
     "require": {

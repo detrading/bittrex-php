@@ -1,10 +1,7 @@
 <?php
 
-/**
- * @author lin <465382251@qq.com>
- * */
 
-use Lin\Bittrex\Bittrex;
+use Detrading\Bittrex\Bittrex;
 
 require __DIR__ .'../../vendor/autoload.php';
 
@@ -16,7 +13,7 @@ $bittrex=new Bittrex($key,$secret,$subaccount_id='');
 //You can set special needs
 $bittrex->setOptions([
     //Set the request timeout to 60 seconds by default
-    'timeout'=>10,
+    'timeout'=>60,
     
     //If you are developing locally and need an agent, you can set this
     //'proxy'=>true,
