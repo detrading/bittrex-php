@@ -1,44 +1,22 @@
 **I'm a github noob and I am in the process of learning github and programming; this is one of my trial repos**  
 ### It is recommended that you read the official documentation first
 
-V3 ( V1.1 eol ), All interface methods are initialized with the same methods provided by Bitfinex. More details [src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
-Most of the interface is finished, users can continue to extend it according to my design plan, feel free to iterate it with me.
+V3 ( V1.1 eol ), All interface methods are initialized with the same methods provided by Bitfinex. For more details please see links below.
 
 [Bittrex API Documentation](https://bittrex.github.io/api/v3)
 
 ### Other Exchanges
 
-[Checkout PHP Exchanges by zhouaini528](https://github.com/zhouaini528/exchanges-php) 
+[Checkout PHP Exchanges by zhouaini528](https://github.com/zhouaini528/exchanges-php)
+[src/api](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
 
 #### Installation method
 ```
-composer require linwj/bittrex
-```
-
-Support more request settings
-```php
-$bittrex=new Bittrex($key,$secret);
-
-//You can set special needs
-$bittrex->setOptions([
-    //Set the request timeout to 60 seconds by default
-    'timeout'=>10,
-    
-    //If you are developing locally and need an agent, you can set this
-    //'proxy'=>true,
-    //More flexible Settings
-    /* 'proxy'=>[
-     'http'  => 'http://127.0.0.1:12333',
-     'https' => 'http://127.0.0.1:12333',
-     'no'    =>  ['.cn']
-     ], */
-    //Close the certificate
-    //'verify'=>false,
-]);
+composer require detrading/bittrex
 ```
 
 ### Spot Trading - API
-Market related API [More](https://github.com/zhouaini528/bittrex-php/blob/master/tests/market.php)
+Market related API [More](https://github.com/detrading/bittrex-php/blob/master/tests/market.php)
 ```php
 //If you have an Subaccount Id, you can fill it in
 $bittrex=new Bittrex($key,$secret,$subaccount_id='');
@@ -108,7 +86,8 @@ try {
 }
 
 ```
-Order related API [More](https://github.com/zhouaini528/bitfinex-php/blob/master/tests/order.php)
+### Order - API
+Order related API [More](https://github.com/detrading/bitfinex-php/blob/master/tests/order.php)
 ```php
 //If you have an Subaccount Id, you can fill it in
 $bittrex=new Bittrex($key,$secret,$subaccount_id='');
@@ -152,8 +131,8 @@ try {
     print_r($e->getMessage());
 }
 ```
-
-Accounts related API [More](https://github.com/zhouaini528/bitfinex-php/blob/master/tests/account.php)
+### Account - API
+Account related API [More](https://github.com/detrading/bitfinex-php/blob/master/tests/account.php)
 ```php
 //If you have an Subaccount Id, you can fill it in
 $bittrex=new Bittrex($key,$secret,$subaccount_id='');
@@ -174,5 +153,5 @@ try {
 
 ```
 
-[More Tests](https://github.com/zhouaini528/bittrex-php/tree/master/tests)
-[More API](https://github.com/zhouaini528/bittrex-php/tree/master/src/Api)
+[More Tests](https://github.com/detrading/bittrex-php/tree/master/tests)
+[More API](https://github.com/detrading/bittrex-php/tree/master/src/Api)
