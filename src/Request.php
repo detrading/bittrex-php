@@ -1,12 +1,9 @@
 <?php
-/**
- * @author lin <465382251@qq.com>
- * */
 
-namespace Lin\Bittrex;
+namespace Detrading\Bittrex;
 
 use GuzzleHttp\Exception\RequestException;
-use Lin\Bittrex\Exceptions\Exception;
+use Detrading\Bittrex\Exceptions\Exception;
 
 class Request
 {
