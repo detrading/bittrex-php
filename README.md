@@ -7,8 +7,8 @@ V3 ( V1.1 eol ), All interface methods are initialized with the same methods pro
 
 ### Other Exchanges
 
-[Checkout PHP Exchanges by zhouaini528](https://github.com/zhouaini528/exchanges-php)
-[src/api by zhouaini528, zb-php](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
+[Other PHP code for exchanges - zhouaini528](https://github.com/zhouaini528/exchanges-php)
+[src/api of project - zhouaini528, zb-php](https://github.com/zhouaini528/zb-php/tree/master/src/Api)
 
 #### Installation method
 ```
